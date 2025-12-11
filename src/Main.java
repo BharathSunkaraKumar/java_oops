@@ -2,6 +2,7 @@ import polymorphism.Animal;
 import polymorphism.Calc;
 import polymorphism.Cat;
 import polymorphism.Dog;
+import statik.College;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -19,9 +20,20 @@ public class Main {
 //        System.out.println(result);
 //        System.out.println(result1);
 //        System.out.println("sbk");
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-        dog.sound();
-        cat.sound();
+//        Animal dog = new Dog();
+//        Animal cat = new Cat();
+//        dog.sound();
+//        cat.sound();
+//        College c1 = new College();
+//        College c2 = new College();
+//        c1.student_name = "bharath";
+//        c2.student_name = "virat kohli";
+//        c1.show();
+//        c2.show();
+        Counter c1 = new Counter();
+        Counter c2 = new Counter();
+        c1.increment();
+        c1.increment();
+        c2.increment();
     }
 }
